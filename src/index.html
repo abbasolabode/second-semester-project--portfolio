@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" class="laptop:overflow-auto">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./output.css" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <title>Portfolio UI - Web & Mobile</title>
+    </head>
+
+    <body class="laptop:overflow-hidden">
+        <!-- Start of the header container -->
+        <header class="w-[23.4375rem] min-h-[3.125rem] flex laptop:w-[72rem] laptop:flex laptop:justify-end laptop:items-start">
+            <!-- Hamburger menu -->
+            <div class="w-[23.875rem] min-h-full">
+                <ion-icon name="menu-outline" class="text-primaryColor ml-[21rem] min-h-[1.125rem] mt-[1.25rem] laptop:hidden"
+                    id="ham-menu"></ion-icon>
+            </div>
+
+            <!-- Navigation bar -->
+            <nav id="nav-bar"
+                class="bg-white w-[23.4375rem] min-h-[60.125rem] fixed hidden  rounded-xl transition-all ease-out duration-1000  laptop:flex laptop:justify-end laptop:bg-transparent laptop:w-[72rem] laptop:min-h-0">
+                <!-- Close button-->
+                <div class="w-[1.875rem] min-h-[1.125rem]">
+                    <ion-icon name="close-outline" id="close-btn" class="relative top-4 left-5 laptop:hidden"></ion-icon>
+                </div>
+
+                <ul class="w-[23.4375rem] min-h-[20.125rem] flex flex-col justify-center items-center laptop:flex laptop:flex-row laptop:justify-end laptop:items-start laptop:w-[72rem] laptop:gap-[3rem] laptop:mr-[2rem]  laptop:min-h-0"><!--  -->
+                    <li class="laptop:w-[3.5625rem] laptop:min-h-[2.6875rem] laptop:self-start mt-5">
+                        <a href="work.html" target="_blank"
+                            class="w-[3.5rem] h-[2.6875rem] font-fontHeebo font-medium text-[1.25rem] leading-[1.83625rem] text-blackColor hover:underline underline-offset-8 laptop:w-[3.5625rem] laptop:min-h-[2.6875rem] laptop:mt-[1.6875rem] laptop:font-fontHeebo laptop:font-medium laptop:text-[1.25rem] laptop:leading-[1.83625rem] ">Works</a>
+             </li>
+                    <li class="mt-[1rem]">
+                        <a href="blog.html" target="_blank"
+                            class="w-[3.5rem] h-[2.6875rem] font-fontHeebo font-medium text-[1.25rem] leading-[1.83625rem] text-blackColor hover:underline underline-offset-8 laptop:w-[6.625rem] laptop:h-[2.6875rem] laptop:font-fontHeebo laptop:font-medium laptop:text-[1.25rem] laptop:leading-[1.83625rem]">Blog</a>
+                    </li>
+                    <li class="mt-[1rem]">
+                        <a href="contact.html" target="_blank"
+                            class="w-[3.5rem] h-[2.6875rem] font-fontHeebo font-medium text-[1.25rem] leading-[1.83625rem] text-blackColor hover:underline underline-offset-8  laptop:font-fontHeebo laptop:font-medium laptop:text-[1.25rem] laptop:leading-[1.83625rem]">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- End of header section -->
+
+        <!-- start of the hero section -->
+        <main
+            class="flex flex-col-reverse w-[23.4375rem] justify-center items-center laptop:w-[72rem] laptop:flex laptop:flex-row laptop:items-center laptop:justify-center gap-[5rem] laptop:overflow-hidden">
+            <!-- Left container -->
+            <div>
+                <!-- larger text (H1) -->
+                <div class="w-[23.3rem] laptop:w-4/5">
+                    <h1
+                        class="w-[19.5rem] text-center text-[2rem] font-bold leading-[2.5rem] font-fontHeebo ml-[2rem] laptop:min-w-[27.6rem] min-h-[6.5625rem] laptop:text-left laptop:font-fontHeebo laptop:font-bold laptop:text-[2.75rem] laptop:leading-[3.75rem] laptop:mr-[8rem]">
+                        Hi, I am John,
+                        Creative Technologist
+                    </h1>
+        
+                    <!-- Text -->
+                    <div class="w-[23.3rem] min-h-[6rem] mt-[1rem] laptop:w-[31rem] laptop:min-h-[4.125rem]">
+                        <p
+                            class="w-[20.5rem] font-normal text-base leading-[1.46875rem] text-primaryColor text-center font-fontHeebo mx-auto laptop:w-[31rem] laptop:min-h-[4.125rem] laptop:text-left laptop:font-normal laptop:text-base laptop:leading-[1.45rem] laptop:font-fontHeebo laptop:ml-[2rem]">
+                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit
+                            mollit. Exercitation veniam consequat sunt nostrud amet.
+                        </p>
+                    </div>
+        
+                    <!-- header button -->
+                    <div
+                        class="w-[12.875rem] min-h-[2.9375rem] pt-[0.4rem] ml-[5.25rem] text-center bg-red-500 mt-5 rounded-sm hover:bg-secondaryColor transition-all ease-out duration-1000 laptop:w-[13rem] laptop:min-h-[2.9375rem] laptop:ml-10">
+                        <button class="min-h-[1.3rem] font-medium text-xl font-fontHeebo leading-[1.83625rem]"><span
+                                class="text-white">Download Resume</span></button>
+                    </div>
+        
+                </div>
+            </div>
+        
+            <!-- Right container for hero image-->
+            <div class="w-[10.89875rem] min-h-[11.25rem] mt-[5.1875rem] laptop:w-1/5 laptop:mb-[8rem]">
+                <img src="./portfolio images/owner image.png" alt="hero image"
+                    class="w-[10.89875rem] min-h-[11.25rem] laptop:w-[15.1rem] laptop:min-h-[15.1rem]">
+            </div>
+        </main>
+        <!-- End of hero section -->
+
+<!-- <main class="w-full laptop:w-[72rem] bg-secondaryColor mt-[4rem] laptop:min-h-[24.75rem]">
+ -->
+<!-- w-[23.4375rem] min-h-[42rem] bg-secondaryColor mt-[4rem] laptop:min-w-[72rem] laptop:min-h-[24.75rem] -->
+
+        <!-- main content -->
+        <main class="w-full laptop:w-[72rem] bg-secondaryColor mt-[4rem] laptop:min-h-[24.75rem]">
+            <div class="">
+                <div>
+                    <!-- Upper flex text container -->
+                    <div class="min-h-[3.75rem] laptop:flex laptop:justify-between laptop:items-center">
+                        <p
+                            class="w-[6.5625rem] min-h-[3.75rem] font-fontHeebo font-normal text-lg leading-[3.75rem] text-center laptop:w-[8rem] laptop:min-h-[3.75rem] laptop:font-fontHeebo laptop:font-normal laptop:leading-[3.75rem] laptop:text-[1.375rem] laptop:ml-[9.25rem] laptop:text-primaryColor">
+                            Recent
+                            Post</p>
+                        <a href="viewall.html" target="_blank" class="hidden laptop:block laptop:w-[13rem] laptop:min-h-[1.25rem] laptop:font-fontHeebo laptop:font-normal laptop:leading-[1.45rem] laptop:text-blue-500">view all</a>
+                    </div>
+
+
+                    <div class="laptop:flex laptop:items-center laptop:justify-center"><!-- Flex container -->
+                        <!-- Left container -->
+                        <div class="w-[22.4rem] min-h-[6.75rem] bg-white ml-[0.5rem] mr-[1rem] pt-4 pb-4 rounded-md laptop:w-[26.125rem] laptop:min-h-[18.4375rem]">
+                            <h2
+                                class="w-[20.4375rem] min-h-[3.75rem] font-fontHeebo font-bold text-[1.375rem] leading-[1.875rem] text-primaryColor ml-[1.875rem] laptop:w-[23.375rem] laptop:min-h-[5.3rem] laptop:font-fontHeebo laptop:font-bold laptop:text-[1.625rem] laptop:leading-[2.386875rem]">
+                                Making a design system from scratch</h2>
+                            <!-- Flex container -->
+                            <div class="w-[23.4rem] min-h-[3.75rem] flex justify-between items-center laptop:flex laptop:justify-between laptop:items-center">
+                                <p class="font-fontHeebo font-normal text-base leading-[1.46875rem] ml-[1.875rem] laptop:font-fontHeebo laptop:font-normal laptop:text-[1.125rem] laptop:leading-[1.65rem] laptop:w-[23.375rem] laptop:min-[2.125rem] laptop:whitespace-nowrap">12
+                                    Feb
+                                    2020</p>
+                                <div class="border-r-2 h-5 bg-primaryColor laptop:min-h-[1.3rem] laptop:text-left laptop:mr-[4rem] laptop:ml-[3rem]  laptop:relative laptop:right-[0.5rem]"></div><!-- vertical rule -->
+                                <p
+                                    class="w-[10.8125rem] min-h-[1.5rem] text-[1.125rem] font-normal leading-[1.46875rem] font-fontHeebo text-primaryColor laptop:w-[14.9rem] laptop:min-h-[1.125rem] laptop:self-center laptop:mr-[6rem] laptop:whitespace-nowrap  laptop:relative laptop:right-[3rem]">
+                                    Design, Pattern</p>
+                            </div>
+
+                            <!-- Text content -->
+
+                            <p
+                                class="w-[19.6rem] min-h-[7.3rem] ml-[1.875rem] font-fontHeebo font-normal leading-[1.468754rem] laptop:w-[23rem] laptop:min-h-[7.3rem] laptop:font-normal laptop:text-base laptop:leading-[1.46875rem] laptop:text-primaryColor">
+                                Amet minim
+                                mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                                duis enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+
+
+                        <!-- Right container -->
+                        <div class="w-[22.4rem] h-[16.725rem] bg-white ml-[0.5rem] mr-[1rem] mt-[1rem] pt-4 pb-4 rounded-md laptop:w-[26.125rem] laptop:min-h-[18.4375rem] laptop:mb-4">
+                            <h2
+                                class="w-[20.4375rem] min-h-[3.75rem] font-fontHebo font-bold leading-[1.875rem] text-[1.375rem] ml-[1.875rem] text-primaryColor laptop:w-[23.3rem] laptop:min-h-[6.3rem] laptop:font-fontHeebo laptop:font-bold laptop:leading-[2.38rem] laptop:text-[1.625rem]">
+                                Creating pixel perfect icons in Figma</h2>
+                            <!-- Flex container -->
+                            <div class="w-[23.4rem] min-h-[3.75rem] flex justify-between items-center laptop:mt-[-0.6rem]">
+                                <p class="font-fontHeebo font-normal text-base leading-[1.46875rem] ml-[1.875rem] laptop:font-fontHeebo laptop:font-normal laptop:text-[1.125rem] laptop:leading-[1.65rem] laptop:w-[23.375rem] laptop:min-[2.125rem] laptop:whitespace-nowrap laptop:mt-[-0.4rem]">12 Feb 2020</p>
+                                <div class="border-r-2 h-5 bg-black laptop:min-h-[1.3rem] laptop:text-left laptop:mr-[4rem] laptop:ml-[3rem]  laptop:relative laptop:right-[0.5rem]"></div><!-- vertical rule -->
+                                <p class="w-[10.8125rem] min-h-[1.5rem] text-[1.125rem] font-normal leading-[1.46875rem] font-fontHeebo text-primaryColor laptop:hidden ">Design, Pattern</p>
+                                <p
+                                    class=" hidden laptop:block laptop:w-[14.9rem] laptop:min-h-[1.125rem] laptop:self-center laptop:mr-[6rem] laptop:whitespace-nowrap laptop:font-fontHeebo laptop:font-normal laptop:text-[1.125rem] laptop:leading-[1.6525rem] laptop:text-primaryColor laptop:relative laptop:right-[3rem]">
+                                    Figma, Icon Design</p>
+                            </div>
+                                      
+                            <!-- Text content -->
+                            <p class="w-[19.625rem] min-h-[18.72rem] ml-[1.875rem] text-primaryColor font-fontHeebo text-base font-normal leading-[1.46875rem] laptop:w-[23rem] laptop:min-h-[7.3rem] laptop:font-normal laptop:text-base laptop:leading-[1.46875rem] laptop:text-primaryColor laptop:mt-[-0.5rem]">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- End of the main content -->
+
+
+        <!-- Start of the feature works -->
+        <main class="w-[21.5rem] min-h-[28.4375rem] ml-[1.125rem]  laptop:w-[72rem] laptop:min-h-[49.2rem]">
+            <p class="w-[7.75rem] min-h-[3.75rem] font-fontHeebo font-normal text-[1.125rem] leading-[3.75rem] text-primaryColor mx-auto laptop:w-[72rem] laptop:min-h-[3.75rem] laptop:font-fontHeebo laptop:font-normal laptop:text-[1.375rem] laptop:leading-[3.75rem] laptop:text-primaryColor laptop:text-left laptop:whitespace-nowrap laptop:ml-[9.125rem]">Featured works</p>
+
+
+           <div class=" laptop:flex laptop:justify-start laptop:items-center laptop:w-[53.625rem] laptop:ml-[9.125rem]"><!-- 1 -->
+                <!-- Left container -->
+                <div class="w-[21.1875rem] min-h-[14.375rem] rounded-md"><!-- Image -->
+                    <img src="./portfolio images/dashboard.png" alt="dashboard" class="w-[21.1875rem] min-h-[14.375rem] laptop:w-[15.3rem] laptop:min-h-[11.25rem]">
+                </div>
+                
+                <!-- Right container -->
+                <div class="laptop:self-start laptop:mb-9">
+                    <h3 class="w-[15.25rem] min-h-[1.875rem] font-fontHeebo text-[1.5rem] leading-[1.875rem] font-bold mt-4 laptop:w-[19rem] laptop:min-h-[2.75rem] laptop:font-fontHeebo laptop:font-bold laptop:text-[1.875rem] laptop:leading-[2.7rem]">Designing Dashboards</h3>
+                    
+                    <!-- flex container -->
+                    <div class="flex items-center gap-7 min-h-[4rem]">
+                        <div class="w-[3.875rem] minh-[1.5625rem] border rounded-full bg-black text-white text-center font-fontHeebo font-black laptop:rounded-full"><span class=" laptop:w-[2.625rem] laptop:min-h-[3.75rem] ">2020</span></div>
+                        <span class="w-[4.875rem] min-h-[1.5rem] text-grayColor font-fontHeebo text-base leading-[1.46875rem] laptop:w-[23.375rem] laptop:font-fontHeebo laptop:text-[1.25rem] laptop:min-h-[2.125rem] laptop:leading-[1.83625rem]">Dashboard</span>
+                    </div>
+                    
+                    <!--mobile bottom text -->
+                    <p class="w-[21rem] min-h-[6rem] font-fontHeebo text-base font-normal leading-[1.46875rem] text-primaryColor laptop:w-[37.125rem] laptop:min-h-[5.8125rem] laptop:font-fontHeebo laptop:font-normal laptop:leading-[1.46rem] laptop:text-base">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                        velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+            </div>
+            <hr class="hidden laptop:block laptop:w-[53.625rem] laptop:mt-[-2rem] laptop:ml-[9.125rem]"><!-- Horizontal rule -->
+            <div class="border-t border-gray-300 mt-4 laptop:hidden"></div><!-- Horizontal rule mobile -->
+            
+
+
+            <!-- 2 -->
+            <div class="hidden laptop:flex  laptop:items-center laptop:w-[53.625rem] laptop:ml-[9.125rem] laptop:justify-between laptop:mt-[1rem]"><!-- 2 -->
+                <!-- Left container -->
+                <div class="w-[21.1875rem] min-h-[14.375rem] rounded-md laptop:w-[15.375rem] laptop:min-h-[11.25rem] ">
+                    <img src="./portfolio images/portrait icon.png" alt="Portrait" class="w-[21.1875rem] min-h-[14.375rem]  laptop:w-[15.375rem] laptop:min-h-[11.25rem]">
+                </div>
+                
+                <!-- Right container -->
+                <div>
+                    <h3 class="w-[15.25rem] min-h-[1.875rem] font-fontHeebo text-[1.5rem] leading-[1.875rem] font-bold mt-4 laptop:w-[21rem] laptop:min-h-[2.75rem] laptop:font-fontHeebo laptop:font-bold laptop:text-[1.875rem] laptop:leading-[2.75375rem] laptop:text-dimBlackColor">
+                       Vibrant Portraits of 2020
+                    </h3>
+            
+                    <!-- flex container -->
+                    <div class="flex items-center gap-7 min-h-[4rem]">
+                        <div
+                        class="w-[3.875rem] minh-[1.5625rem] border rounded-full bg-black text-white text-center font-fontHeebo font-black">
+                        2018</div>
+                        <span
+                        class="w-[4.875rem] min-h-[1.5rem] text-grayColor font-fontHeebo text-base leading-[1.46875rem] laptop:w-[23.375rem] laptop:min-h-[2.125rem] laptop:font-fontHeebo laptop:text-[1.25rem] laptop:leading-[1.83625rem] laptop:font-normal">Illustration</span>
+                    </div>
+                    
+                    <!--mobile bottom text -->
+                    <p class="w-[21rem] min-h-[6rem] font-fontHeebo text-base font-normal leading-[1.46875rem] text-primaryColor laptop:w-[37.125rem] laptop:min-h-[5.8125rem] laptop:font-normal laptop:text-base laptop:leading-[1.46875rem] laptop:text-dimBlackColor">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                        velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+            </div>
+            <hr class="hidden laptop:block laptop:w-[53.625rem] laptop:mt-[0.8rem] laptop:ml-[9.125rem]"><!-- Horizontal rule -->
+
+        
+
+
+            <!-- 3 -->
+            <div class="hidden laptop:flex laptop:items-center laptop:gap-[0.6rem] laptop:w-[53.625rem] laptop:ml-[9.125rem] laptop:mt-[2rem]"><!-- 3 -->
+                <!-- Left container -->
+                <div class="w-[21.1875rem] min-h-[14.375rem] rounded-md laptop:w-[15.375rem] laptop:min-h-[11.25rem]">
+                    <img src="./portfolio images/malayam icon.png" alt="dashboard" class="w-[21.1875rem] min-h-[14.375rem] laptop:w-[15.3rem] laptop:min-h-[11.25rem]">
+                </div>
+                <div></div><!-- Horizontal rule -->
+            
+                <!-- Right container -->
+                <div>
+                    <h3 class="w-[15.25rem] min-h-[1.875rem] font-fontHeebo text-[1.5rem] leading-[1.875rem] font-bold mt-4 laptop:w-[22.8125rem] laptop:min-h-[2.75rem] laptop:font-fontHeebo laptop:text-[1.875rem] laptop:leading-[2.753rem] laptop:text-dimBlackColor">
+                        36 Days of Malayalam type</h3>
+            
+                    <!-- flex container -->
+                    <div class="flex items-center gap-7 min-h-[4rem]">
+                        <div
+                            class="w-[3.875rem] minh-[1.5625rem] border rounded-full bg-black text-white text-center font-fontHeebo font-black">
+                            2018</div>
+                        <span
+                            class="w-[4.875rem] min-h-[1.5rem] text-grayColor font-fontHeebo text-base leading-[1.46875rem] laptop:w-[23.375rem] laptop:min-h-[2.125rem] laptop:text-[1.125rem] laptop:leading-[1.83625rem] laptop:font-normal">Typography</span>
+                    </div>
+            
+                    <!--mobile bottom text -->
+                    <p class="w-[21rem] min-h-[6rem] font-fontHeebo text-base font-normal leading-[1.46875rem] text-primaryColor laptop:font-fontHeebo laptop:font-normal laptop:text-base laptop:leading-[1.468rem] laptop:w-[31.6875rem] laptop:min-h-[5.8rem]">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+                        velit
+                        mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+                
+            </div>
+            <hr class="hidden laptop:block laptop:w-[53.625rem] laptop:mt-[2rem] laptop:ml-[9.125rem]"><!-- Horizontal rule -->
+        </main>
+
+        <!-- Footer section Icons-->
+        <div class="w-[23.4375rem] min-h-[14.375rem] flex flex-col justify-end items-center laptop:w-[72rem]   laptop:flex laptop:justify-center laptop:items-center">
+           <span>
+              <ion-icon name="logo-facebook" class="w-[1.875rem] h-[1.875rem] mr-6"></ion-icon>
+              <ion-icon name="logo-instagram" class="w-[1.875rem] h-[1.875rem] mr-6"></ion-icon>
+              <ion-icon name="logo-twitter" class="w-[1.875rem] h-[1.875rem] mr-6"></ion-icon>
+              <ion-icon name="logo-linkedin" class="w-[1.875rem] h-[1.875rem]"></ion-icon>
+           </span> 
+
+           <!-- Texts -->
+           <div class="w-[13.875rem] min-[1.3125rem] text-sm font-fontHeebo font-normal leading-[1.285rem] mt-5">
+             <p>Copyright ©2020 All rights reserved</p>
+           </div>
+        </div>
+        <!-- End -->
+
+        <script src="./script.js"></script>
+       
+    </body>
+
+</html>
